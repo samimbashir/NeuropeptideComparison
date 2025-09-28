@@ -1,5 +1,3 @@
-# NeuropeptideComparison
-
 # Neuropeptide Comparison
 
 A Python tool to compare neuropeptides against reference databases and output only the matched peptides.
@@ -14,7 +12,7 @@ A Python tool to compare neuropeptides against reference databases and output on
 
 ## Usage
 
-```bash
+```
 python neuropeptide_compare.py \
   --input data/input_peptides.fasta \
   --reference data/reference_db.fasta \
@@ -24,7 +22,7 @@ python neuropeptide_compare.py \
 ## Installation
 
 Requires Python 3.7+
-```bash
+```
 pip install pandas biopython
 ```
 
